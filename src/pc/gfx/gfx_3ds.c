@@ -163,8 +163,8 @@ static void gfx_3ds_update_stereoscopy(void)
 	} else
     {
         // default to true; this is different to initialisation where both are false
-		gfx_config.useAA = true;
-		gfx_config.useWide = true;
+        gfx_config.useAA = false;
+        gfx_config.useWide = false;
         gGfx3DEnabled = false;
 	}
 
